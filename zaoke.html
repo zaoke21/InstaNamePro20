@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مولد يوزر نيم إنستغرام فريد</title>
+    <link rel="stylesheet" href="zaoke.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- زر تبديل الوضع -->
+    <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- شريط معلومات المصمم -->
+    <div class="designer-bar">
+        <div class="designer-info">
+            <div class="avatar-container">
+                <img src="designer.jpg.jpg" alt="محمد عبد الرزاق" class="designer-avatar">
+                <div class="avatar-hover"></div>
+            </div>
+            <div class="designer-details">
+                <h3>مصمم الموقع</h3>
+                <h2>محمد عبد الرزاق</h2>
+                <div class="designer-contact">
+                    <a href="tel:+218926778578" class="phone-link">
+                        <i class="fas fa-phone"></i> 218-92-6778578
+                    </a>
+                </div>
+                <div class="designer-social">
+                    <a href="https://www.instagram.com/black_crow_26/?hl=ar" target="_blank" class="social-link" aria-label="إنستغرام">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61558652901202" target="_blank" class="social-link" aria-label="فيسبوك">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- الهيدر الرئيسي -->
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="site-title">InstaGen</h1>
+            <p class="site-description">مولد أسماء مستخدمين إنستغرام فريدة</p>
+        </div>
+    </header>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="main-content">
+        <!-- قسم الترحيب -->
+        <section class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-text">
+                <h2>أنشئ اسم مستخدم فريد لإنستغرام!</h2>
+                <p>احصل على اقتراحات مبدعة تساعدك في التميز على الإنستغرام</p>
+            </div>
+        </section>
+
+        <!-- أداة توليد اليوزر نيم -->
+        <section class="generator-section">
+            <div class="generator-container">
+                <div class="input-group">
+                    <input type="text" id="nameInput" placeholder="أدخل اسمك أو كلمة مفتاحية" class="input-field">
+                    <button id="generateBtn" class="generate-btn">
+                        <span>أنشئ يوزر نيم</span>
+                        <i class="fas fa-magic"></i>
+                    </button>
+                </div>
+                
+                <div class="options-group">
+                    <label class="option-label">
+                        <input type="checkbox" id="addNumbers" checked class="option-checkbox">
+                        <span class="option-text">أضف أرقام عشوائية</span>
+                    </label>
+                    <label class="option-label">
+                        <input type="checkbox" id="addUnderscore" checked class="option-checkbox">
+                        <span class="option-text">أضف شرطة سفلية (_)</span>
+                    </label>
+                </div>
+                
+                <div class="result-box" id="result">
+                    <div class="result-content">
+                        <p class="result-placeholder">سيظهر اسم المستخدم هنا...</p>
+                    </div>
+                </div>
+                
+                <div class="action-buttons">
+                    <button id="copyBtn" class="action-btn copy-btn">
+                        <span>نسخ اليوزر نيم</span>
+                        <i class="far fa-copy"></i>
+                    </button>
+                    <button id="newBtn" class="action-btn new-btn">
+                        <span>توليد جديد</span>
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- الفوتر -->
+    <footer class="main-footer">
+        <div class="footer-social">
+            <a href="#" class="footer-social-link" aria-label="إنستغرام"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-social-link" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer-social-link" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="footer-social-link" aria-label="يوتيوب"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="copyright">© <span id="currentYear"></span> InstaGen. جميع الحقوق محفوظة</p>
+        <p class="designer-credit">تصميم وتطوير: <a href="https://www.instagram.com/black_crow_26/?hl=ar" target="_blank">محمد عبد الرزاق</a></p>
+    </footer>
+
+    <script src="zaoke.js"></script>
+</body>
+</html> 
